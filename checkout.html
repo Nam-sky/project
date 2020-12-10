@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fe9872fc12.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <div class="header-top bg bg-danger">
+            <p class="text-white text-center p-1">Chợ của cộng đồng Aoe Việt Nam</p>
+        </div>
+        <div class="header-main">
+            <div class="row">
+                <div class="col-sm-3 logo">
+                    <img class="m-0" src="image/logo1.webp" alt="">
+                </div>
+                <div class="col-sm-6 search">
+                    <div class="d-flex">
+                        <input class="form-control" id="myInput" type="text" placeholder="Tìm kiếm sản phẩm...">
+                        <button type="button" class="btn btn-danger"><svg style="fill: #ffff;"  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40" width="20" height="20"><path d="M37.613,36.293l-9.408-9.432a15.005,15.005,0,1,0-1.41,1.414L36.2,37.707A1,1,0,1,0,37.613,36.293ZM3.992,17A12.967,12.967,0,1,1,16.959,30,13,13,0,0,1,3.992,17Z"></path></svg></i></button>
+                    </div>
+                </div>
+                <div class="col-sm-3"></div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md  navbar-dark menu-bottom">
+            <a class="navbar-brand" href="#"><i class="fas fa-home text-danger"></i></a>
+            <button class="navbar-toggler bg-danger" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">SẢN PHẨM KHUYẾN MÃI</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn" href="#">RAPIDO <i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn" href="#">RAPIDO <i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Ghế Massage HARUKO</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn" href="#">Nhạc Cụ <i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Vfloor</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropbtn" href="#">Sản Phẩm Khác <i class="fa fa-chevron-down"></i></a>
+                        <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="bg-white">
+        <h2 class="text-center font-weight-bold">Thanh toán</h2>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 border-right">
+                    <div class="row">
+                        <img class="col-sm-4" src="image/product/clock.webp" alt="">
+                        <div class="col-sm-8">
+                            <h5 class="font-weight-bold text-danger">Đồng Hồ Cơ Automatic Pagini 9233G</h5>
+                            <p class="font-weight-bold">1,700,000₫</p>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="sale">Nếu như bạn có mã giảm giá, hãy sử dụng ở đây</label>
+                        <input type="text" class="form-control col-12" id="sale" name="sale">
+                        <a href="" class="btn btn-info mt-2">Áp dụng</a>
+                    </div>
+                </div>
+                <div class="col-sm-7">
+                    <form action="" method="post">
+                        <div class="d-flex">
+                            <h4 class="text-danger">Tổng giá trị đơn hàng:</h4> &nbsp;
+                            <h4 class="text-danger">4,050,000₫</h4>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" class="form-control" id="name" name="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" class="form-control" id="email" name="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số điện thoại:</label>
+                            <input type="phone" class="form-control" id="phone" name="phone">
+                        </div>
+                        <div class="row form-group">
+                            <div class="col">
+                                <label for="tinh">Tỉnh/Thành phố:</label>
+                                <input type="text" class="form-control" id="tinh" name="tinh" placeholder="Tỉnh/Thành phố">
+                            </div>
+                            <div class="col">
+                                <label for="huyen">Quận/Huyện:</label>
+                                <input type="text" class="form-control" id="huyen" name="huyen" placeholder="Quận/Huyện:">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="addres">Địa chỉ cụ thể:</label>
+                            <input type="addres" class="form-control" id="addres" name="addres" placeholder="Đường, thôn, xã,...">
+                        </div>
+                        <button class="btn btn-danger w-100">Thanh toán</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr>
+    </main>
+    <footer class="bg bg-white">
+        <div class="container pt-4">
+            <div class="row">
+                <div class="col-sm-4">
+                    <h3 class="font-weight-bold pb-3">Giới thiệu</h3>
+                    <p>EgoMall Thuộc Công ty cổ phần EGO MEDIA. MSDN: 0108940104 do Sở Kế hoạch và Đầu tư Thành phố Hà Nội cấp lần đầu ngày 11 tháng 10 năm 2019</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="font-weight-bold pb-3">Thông tin liên hệ</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Ngõ 189 Cầu Diễn - Từ Liêm - Hà Nội</p>
+                    <p><i class="fas fa-phone-alt"></i> 0858745402</p>
+                    <p><i class="fas fa-envelope"></i> namnv.egomedia@gmail.com</p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="font-weight-bold pb-3">Fanpage</h3>
+                    <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FHeHeFanpage%2F&tabs&width=340&height=130&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId=876567132879878" width="340"
+                        height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
